@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xinqingdu.github.io/2023/05/13/hello-world/</loc>
+    <loc>https://xinqingdu.github.io/2023/05/14/home/</loc>
     
-    <lastmod>2023-05-13</lastmod>
+    <lastmod>2023-05-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinqingdu.github.io/2023/05/13/draft_log/</loc>
+    
+    <lastmod>2023-05-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
