@@ -6,7 +6,7 @@
   <link href="https://xinqingdu.github.io/atom.xml" rel="self"/>
   
   <link href="https://xinqingdu.github.io/"/>
-  <updated>2023-05-14T07:54:23.695Z</updated>
+  <updated>2023-05-14T12:07:38.779Z</updated>
   <id>https://xinqingdu.github.io/</id>
   
   <author>
@@ -17,24 +17,75 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>主页-个人说明</title>
-    <link href="https://xinqingdu.github.io/2023/05/14/home/"/>
-    <id>https://xinqingdu.github.io/2023/05/14/home/</id>
-    <published>2023-05-14T07:40:44.268Z</published>
-    <updated>2023-05-14T07:54:23.695Z</updated>
+    <title>RPC通信中的序列化协议</title>
+    <link href="https://xinqingdu.github.io/2023/05/14/serialization-Summary/"/>
+    <id>https://xinqingdu.github.io/2023/05/14/serialization-Summary/</id>
+    <published>2023-05-14T12:02:17.000Z</published>
+    <updated>2023-05-14T12:07:38.779Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>它山之石，可以攻玉 <p align="right">——《诗·小雅·鹤鸣》</p></p></blockquote><h2 id="创作起源"><a href="#创作起源" class="headerlink" title="创作起源"></a>创作起源</h2><p>学习技术的过程是持续的，需要坚持不懈，写过的代码需要总结与回顾。<br>希望以博客的方式，把自己的技术学习和成长路线纪录下来。</p><h2 id="关于作者"><a href="#关于作者" class="headerlink" title="关于作者"></a>关于作者</h2><p>作者是一位简单的技术爱好者，技术路线主要围绕 java 展开，欢迎感兴趣的朋友来技术交流。 </p><p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p><p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p><h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a href="https://hexo.io/">Hexo</a> 生成，部署在 <a href="https://pages.github.com/">GitHub Pages</a>主题 <a href="https://github.com/yelog/hexo-theme-3-hexo">3-hexo</a> 已经在github上开源。</p><!-- `3-hexo` 主题使用交流可以加 Q群: <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e8cf083cc097141eaf323396f1766809b8e90ff00c67bb441898f672892f6904"><img data-ignore border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="3-hexo使用交流" title="3-hexo使用交流"></a> --><p>主要功能：</p><ul><li>搜索支持文章标题、标签(#标签)、作者(@作者)</li><li>pad&#x2F;手机等移动端适配</li><li>页面全局快捷键 <a href='http://yelog.org/2017/03/24/3-hexo-shortcuts/'>3-hexo快捷键说明</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于项目中考虑了序列化，本篇学习研究序列化的内容，目标是分析序列化性能瓶颈、分析主流序列化协议的特点，包括 kyro、hessian、protobuf</p><h3 id="一、序列化性能瓶颈分析"><a href="#一、序列化性能瓶颈分析" class="headerlink" title="一、序列化性能瓶颈分析"></a>一、序列化性能瓶颈分析</h3><p>待做…</p><h3 id="二、主流序列化协议"><a href="#二、主流序列化协议" class="headerlink" title="二、主流序列化协议"></a>二、主流序列化协议</h3><p>待做…</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;它山之石，可以攻玉 &lt;p align=&quot;right&quot;&gt;——《诗·小雅·鹤鸣》&lt;/p&gt;&lt;/p&gt;
-&lt;/blockquo</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;由于项目中考虑了序列化，本篇学习研究序列化的内容，目标是分析序列化性能瓶颈、分析主流序列化协议的特点，包括 kyro、hessian、pro</summary>
       
     
     
     
+    <category term="分布式" scheme="https://xinqingdu.github.io/categories/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+    
+    <category term="RPC框架" scheme="https://xinqingdu.github.io/tags/RPC%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【面经】计算机网络（持续更新）</title>
+    <link href="https://xinqingdu.github.io/2023/05/14/interview-cs-network/"/>
+    <id>https://xinqingdu.github.io/2023/05/14/interview-cs-network/</id>
+    <published>2023-05-14T11:53:53.000Z</published>
+    <updated>2023-05-14T12:08:04.579Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>总结个人面试过程中、牛客or其他地方收录的计算机网络相关的面试题，流程为 问题-分析-解答</p><h3 id="面试题（持续更新）"><a href="#面试题（持续更新）" class="headerlink" title="面试题（持续更新）"></a>面试题（持续更新）</h3><p>待做…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;总结个人面试过程中、牛客or其他地方收录的计算机网络相关的面试题，流程为 问题-分析-解答&lt;/p&gt;
+&lt;h3 id=&quot;面试题（持续更新）&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="面经" scheme="https://xinqingdu.github.io/categories/%E9%9D%A2%E7%BB%8F/"/>
+    
+    
+    <category term="计算机网络" scheme="https://xinqingdu.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【budin】手写RPC框架之设计篇</title>
+    <link href="https://xinqingdu.github.io/2023/05/14/budin-RPC-design-1/"/>
+    <id>https://xinqingdu.github.io/2023/05/14/budin-RPC-design-1/</id>
+    <published>2023-05-14T09:12:19.000Z</published>
+    <updated>2023-05-14T11:44:15.024Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h4 id="为什么写RPC框架"><a href="#为什么写RPC框架" class="headerlink" title="为什么写RPC框架"></a>为什么写RPC框架</h4><p>面试高频问题之一。作者技术平平，可以说是为找工作而做的简历项目，主要参考了<a href="https://github.com/Snailclimb/guide-rpc-framework">guide-rpc-framework</a><br></br><br>写这个框架的原因有两方面，一方面是最初看面经学分布式技术，对RPC通信较为感兴趣。另一方面是下通过做一个架构类的项目，加深自己对分布式知识体系的理解。<br></br><br>后端发展到现在，基本上各大公司都会用上分布式微服务，一般也就离不开RPC通信框架。目前了解的有：<br></br><br>阿里 <a href="https://github.com/apache/dubbo">Dubbo</a>、腾讯 <a href="https://github.com/TarsCloud/Tars">Tars</a>、字节 <a href="https://github.com/apache/thrift">Thrift</a>、谷歌开源的 <a href="https://github.com/grpc/grpc">gRPC</a>、百度 <a href="https://github.com/apache/brpc">bRPC</a>、还有 <a href="https://spring.io/projects/spring-cloud/">Spring Cloud</a></p><h3 id="一、什么是RPC通信"><a href="#一、什么是RPC通信" class="headerlink" title="一、什么是RPC通信"></a>一、什么是RPC通信</h3><h3 id="二、RPC框架基本结构"><a href="#二、RPC框架基本结构" class="headerlink" title="二、RPC框架基本结构"></a>二、RPC框架基本结构</h3><h3 id="三、所写的RPC框架内容"><a href="#三、所写的RPC框架内容" class="headerlink" title="三、所写的RPC框架内容"></a>三、所写的RPC框架内容</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h4 id=&quot;为什么写RPC框架&quot;&gt;&lt;a href=&quot;#为什么写RPC框架&quot; class=&quot;headerlink&quot; title=&quot;为什么写RPC</summary>
+      
+    
+    
+    
+    <category term="分布式" scheme="https://xinqingdu.github.io/categories/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+    
+    <category term="RPC框架" scheme="https://xinqingdu.github.io/tags/RPC%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
